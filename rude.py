@@ -10,5 +10,5 @@ def insult(num):
     y = ver.read().splitlines()
     z = nou.read().splitlines()
         
-return ("you're a" + random.choice(x).lower() + " " + random.choice(y).lower() + " " + random.choice(z).lower() + ".")
+    return ("you're a" + random.choice(x).lower() + " " + random.choice(y).lower() + " " + random.choice(z).lower() + ".")
 
