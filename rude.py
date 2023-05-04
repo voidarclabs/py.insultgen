@@ -2,7 +2,7 @@ import time
 import os
 import random
 
-def insult(num):
+def insult():
     adj = open("adj.txt", "r")
     ver = open("ver.txt", "r")
     nou = open("nou.txt", "r")
@@ -10,7 +10,7 @@ def insult(num):
     y = ver.read().splitlines()
     z = nou.read().splitlines()
 
-    for i in range(num):
-        print("you're a" + random.choice(x).lower() + " " + random.choice(y).lower() + " " + random.choice(z).lower() + ".")
+   
+    return ("you're a" + random.choice(x).lower() + " " + random.choice(y).lower() + " " + random.choice(z).lower() + ".")
     
 
