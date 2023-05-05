@@ -16,9 +16,10 @@ while True:
     myobj = gTTS(text=mytext, lang=language, slow=False)
   
 # Saving the converted audio in a mp3 file named
-# welcome 
+# insult
     myobj.save("insult.mp3")
   
 # Playing the converted file
-    playsound("welcome.mp3")
-    os.remove("welcome.mp3")
+    playsound("insult.mp3")
+    os.remove("insult.mp3")
+
