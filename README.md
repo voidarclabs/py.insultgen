@@ -1,11 +1,9 @@
 # Python insult generator
 
-This python file will draw a random adjective, verb and noun from the .txt files and print it to the screen.
+This python file will randomly generate an insult and use tts and say it.
 
-You can call the function using:
-```
-import rude
-rude.insult(<number of insults>)
-```
+To run, use `pip install gtts playsound` and run the [TTStest.py](https://github.com/voidarclabs/py.insultgen/blob/main/TTStest.py)file.
 
-Please note that the insults are all printed on seperate lines.
+The insults are drawn from the .txt files and can be modified at will to add more words.
+The `rude.insult()` function can still be called, but no longer requires the <num> variable.
+If you do not need tts, use the [notts](https://github.com/voidarclabs/py.insultgen/blob/notts) branch.
