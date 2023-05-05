@@ -2,7 +2,7 @@ import time
 import os
 import random
 
-def insult(num):
+def insult():
     adj = open("adj.txt", "r")
     ver = open("ver.txt", "r")
     nou = open("nou.txt", "r")
